@@ -8,10 +8,10 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["DevIO.NerdStore.Pedido.API/DevIO.NerdStore.Pedido.API.csproj", "DevIO.NerdStore.Pedido.API/"]
-RUN dotnet restore "./DevIO.NerdStore.Pedido.API/DevIO.NerdStore.Pedido.API.csproj"
+COPY ["src/DevIO.NerdStore.Pedido.API/DevIO.NerdStore.Pedido.API.csproj", "src/DevIO.NerdStore.Pedido.API/"]
+RUN dotnet restore "./src/DevIO.NerdStore.Pedido.API/DevIO.NerdStore.Pedido.API.csproj"
 COPY . .
-WORKDIR "/src/DevIO.NerdStore.Pedido.API"
+WORKDIR "/src/src/DevIO.NerdStore.Pedido.API"
 RUN dotnet build "./DevIO.NerdStore.Pedido.API.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish

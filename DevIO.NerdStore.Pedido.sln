@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{40689F15-6404-472B-ABF2-01DDAFE672BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevIO.NerdStore.Pedido.API", "DevIO.NerdStore.Pedido.API\DevIO.NerdStore.Pedido.API.csproj", "{7CEB772B-EED1-4D58-9DA9-2D6FE3C59C2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevIO.NerdStore.Pedido.API", "src\DevIO.NerdStore.Pedido.API\DevIO.NerdStore.Pedido.API.csproj", "{0F681737-C0E9-46D9-BB4A-2283CA653539}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,15 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7CEB772B-EED1-4D58-9DA9-2D6FE3C59C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7CEB772B-EED1-4D58-9DA9-2D6FE3C59C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7CEB772B-EED1-4D58-9DA9-2D6FE3C59C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7CEB772B-EED1-4D58-9DA9-2D6FE3C59C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F681737-C0E9-46D9-BB4A-2283CA653539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F681737-C0E9-46D9-BB4A-2283CA653539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F681737-C0E9-46D9-BB4A-2283CA653539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F681737-C0E9-46D9-BB4A-2283CA653539}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{7CEB772B-EED1-4D58-9DA9-2D6FE3C59C2D} = {40689F15-6404-472B-ABF2-01DDAFE672BC}
+		{0F681737-C0E9-46D9-BB4A-2283CA653539} = {40689F15-6404-472B-ABF2-01DDAFE672BC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B1FF4AE-96BA-45BD-B51E-55FB1FA7613F}
 	EndGlobalSection
 EndGlobal
